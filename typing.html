@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="design.css" />
+</head>
+<body>
+
+  <!-- Welcome Screen -->
+  <div class="overlay" id="difficultySelect">
+    <h1>Welcome to Typing Speed Test</h1>
+    <p>Select Difficulty:</p>
+    <div class="buttons">
+      <button onclick="startTest('easy')">Easy</button>
+      <button onclick="startTest('medium')">Medium</button>
+      <button onclick="startTest('hard')">Hard</button>
+    </div>
+  </div>
+
+  <!-- Typing Area -->
+  <div class="main-container hidden" id="testArea">
+    <div class="quote-display" id="quoteDisplay"></div>
+    <textarea id="quoteInput" placeholder="Start typing here..."></textarea>
+    <div class="stats">
+      <span>⏱️ Time Left: <span id="timer"></span>s</span>
+    </div>
+  </div>
+
+  <!-- Result Popup -->
+  <div class="popup hidden" id="resultPopup">
+    <h2>Test Completed</h2>
+    <p>Time Taken: <span id="finalTime"></span>s</p>
+    <p>WPM: <span id="finalWPM"></span></p>
+    <p>Accuracy: <span id="finalAccuracy"></span>%</p>
+    <canvas id="popupConfetti"></canvas>
+    <button id="tryAgainBtn" onclick="resetTest()">Try Again</button>
+  </div>
+
+  <!-- Confetti library & JS -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="unique.js"></script>
+</body>
+</html>
