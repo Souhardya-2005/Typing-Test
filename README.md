@@ -1,29 +1,29 @@
 ⌨️ Typing Speed Tester
-Live Demo: https://souhardya-2005.github.io/Typing-Test/
+Live Demo 🚀
 
 A minimalist and interactive typing speed tester built with HTML, CSS, and JavaScript. It allows users to test their typing speed and accuracy in real-time, with live visual feedback, difficulty selection, and performance statistics.
 
-Features
-🔥 3 Difficulty Levels – Easy, Medium, Hard
-⏱️ Live Timer and Countdown
-📊 Stats Display – WPM, Accuracy, Time Taken
-🎉 Confetti Animation on Success
-🚫 "Oops!" Alert When Time Runs Out
-📱 Responsive Design for Mobile and Desktop
+✨ Features<br>
+🔥 3 Difficulty Levels – Easy, Medium, Hard <br>
+⏱️ Live Timer and Countdown<br>
+📊 Stats Display – WPM, Accuracy, Time Taken<br>
+🎉 Confetti Animation on Success<br>
+🚫 "Oops!" Alert When Time Runs Out<br>
+📱 Responsive Design for Mobile and Desktop<br>
 
-🧠 How It Works
-Choose a difficulty level.
-A random paragraph is shown.
-Type the paragraph in the input box.
-As you type:
-Characters turn green (correct) or red (incorrect).
-Timer ticks down in real time.
-When you finish typing or time runs out:
-A popup shows your stats.
-Confetti explodes if you type accurately.
+🧠 How It Works<br>
+1. Choose a difficulty level.<br>
+2. A random paragraph is shown.<br>
+3. Type the paragraph in the input box.<br>
+4. As you type:<br>
+5. Characters turn green (correct) or red (incorrect).<br>
+6. Timer ticks down in real time.<br>
+7. When you finish typing or time runs out:<br>
+8. A popup shows your stats.<br>
+9. Confetti explodes if you type accurately.<br>
 
-📁 Tech Stack
-HTML5
-CSS3
-JavaScript (Vanilla)
-Canvas Confetti for celebration effects
+📁 Tech Stack<br>
+HTML5<br>
+CSS3<br>
+JavaScript<br>
+Canvas Confetti for celebration effects<br>
