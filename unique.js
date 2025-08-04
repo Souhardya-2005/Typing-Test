@@ -129,6 +129,8 @@ function finishTest(isCompleted) {
   const popup = document.getElementById("resultPopup");
   const tryAgainBtn = document.getElementById("tryAgainBtn");
 
+  const title = document.getElementById("testResultTitle");
+  title.textContent = isCompleted ? "✅ Test Completed" : "⏰ Oops! You ran out of time";
   popup.classList.remove("hidden");
 
   if (isCompleted && accuracy >= 90) {
