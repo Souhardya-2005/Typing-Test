@@ -1,5 +1,5 @@
 ⌨️ Typing Speed Tester
-Live Demo 🚀
+Live Demo: https://souhardya-2005.github.io/Typing-Test/
 
 A minimalist and interactive typing speed tester built with HTML, CSS, and JavaScript. It allows users to test their typing speed and accuracy in real-time, with live visual feedback, difficulty selection, and performance statistics.
 
